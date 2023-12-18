@@ -1,2 +1,2 @@
 all:
-	nvcc -03 -Xcompiler -fopenmp main.cu -o prog
+	nvcc main.cu -fopenmp -lcudart -lm -o prog
